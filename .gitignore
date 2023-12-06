@@ -1,0 +1,3 @@
+env/Lib/site-packages/cv2/cv2.pyd
+env/Lib/site-packages/torch/lib/torch_cpu.dll
+env/Lib/site-packages/torch/lib/dnnl.lib
