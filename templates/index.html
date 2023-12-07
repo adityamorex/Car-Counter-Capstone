@@ -39,11 +39,10 @@
             cursor: pointer;
         }
 
-        {% if video_uploaded %}
-        form[action="/run_car_counter"] {
+        .conditional-form {
             margin-top: 20px;
+            /* Other conditional styles */
         }
-        {% endif %}
     </style>
 </head>
 <body>
@@ -53,7 +52,7 @@
         <input type="submit" value="Upload">
     </form>
     {% if video_uploaded %}
-        <form action="/run_car_counter" method="post">
+        <form action="/run_car_counter" class="conditional-form" method="post">
             <input type="submit" value="Run">
         </form>
     {% endif %}
