@@ -18,7 +18,7 @@ video_path = args.video_path
 cap = cv2.VideoCapture(video_path)
 
 
-model = YOLO("C:/Users/adity/OneDrive/Desktop/Projects/Object Detection/Yolo-Weights/yolov8n.pt")
+model = YOLO("C:/Users/akash/OneDrive/Desktop/Capstone/Car-Counter-Capstone/Yolo-Weights/yolov8n.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
@@ -32,7 +32,7 @@ classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "trai
               "teddy bear", "hair drier", "toothbrush"
               ]
 
-mask = cv2.imread("C:/Users/adity/OneDrive/Desktop/Projects/Object Detection/Car-Counter/mask.png")
+mask = cv2.imread("C:/Users/akash/OneDrive/Desktop/Capstone/Car-Counter-Capstone/mask.png")
 
 # Tracking
 Tracking_values = Sort(max_age=20, min_hits=3, iou_threshold=0.3)
@@ -44,7 +44,7 @@ while True:
     success, img = cap.read()
     imgRegion = cv2.bitwise_and(img, mask)
 
-    imgGraphics = cv2.imread("C:/Users/adity/OneDrive/Desktop/Projects/Object Detection/Car-Counter/graphics.png", cv2.IMREAD_UNCHANGED)
+    imgGraphics = cv2.imread("C:/Users/akash/OneDrive/Desktop/Capstone/Car-Counter-Capstone/graphics.png", cv2.IMREAD_UNCHANGED)
     img = cvzone.overlayPNG(img, imgGraphics, (0, 0))
     results = model(imgRegion, stream=True)
 
