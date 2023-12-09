@@ -24,7 +24,7 @@ To run this project, you will need the following dependencies:
 - Python 3.x  
 - OpenCV  
 - NumPy  
-- Ultralytics YOLO  
+- Ultralytics YOLOv8
 - SORT  
 - A pre-trained YOLO model (e.g., YOLOv3) and corresponding configuration files.  
 - A video input source (e.g., a video file).  
