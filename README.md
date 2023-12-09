@@ -48,7 +48,10 @@ To run this project, you will need the following dependencies:
 - **classNames:** Define the class names for object detection (e.g., "car," "truck," "bus," "motorbike").  
 - **mask:** Load a mask image to limit the region of interest (ROI) for vehicle counting.  
 - **tracker:** Configure SORT tracking parameters such as maximum age and minimum hits.  
-- **limits:** Set the line coordinates for counting vehicles that cross a specific point in the video.  
+- **limits:** Set the line coordinates for counting vehicles that cross a specific point in the video.
+
+## JIRA Timeline
+   https://adityamore.atlassian.net/jira/software/projects/OBJ/boards/1/timeline
 
 ## Results
 
