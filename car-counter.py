@@ -17,7 +17,7 @@ args = ap.parse_args()
 video_path = args.video_path
 cap = cv2.VideoCapture(video_path)
 
-
+# Replace the hardcoded video path with the dynamically generated filename
 model = YOLO("C:/Users/akash/OneDrive/Desktop/Capstone/Car-Counter-Capstone/Yolo-Weights/yolov8n.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
