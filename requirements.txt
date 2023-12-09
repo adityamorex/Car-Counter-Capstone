@@ -2,12 +2,13 @@
 
 
 # base 
-numpy
-cvzone==1.5.6
+#numpy
+#cvzone==1.5.6
 #ultralytics
 hydra-core>=1.2.0
-matplotlib>=3.2.2
+#matplotlib>=3.2.2
 #opencv-python
+flask_testing
 Pillow
 PyYAML>=5.3.1
 requests>=2.23.0
