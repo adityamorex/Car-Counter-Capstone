@@ -13,7 +13,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--video_path", required=True, help="path to input video")
 args = ap.parse_args()
 
-# Replace the hardcoded video path with the dynamically generated filename
+
 video_path = args.video_path
 cap = cv2.VideoCapture(video_path)
 
