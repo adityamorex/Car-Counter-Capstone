@@ -6,7 +6,14 @@
 
 The real-time vehicle counter project employs computer vision techniques, utilizing YOLO (You Only Look Once) object detection and SORT (Simple Online and Realtime Tracking) algorithm to detect, track, and count vehicles in video streams. It accurately identifies cars, trucks, buses, and motorbikes while showcasing the count in real-time on the video feed.
 
+### Features
 
+- **Object Detection:** YOLO model for vehicle identification.
+- **Real-Time Tracking:** SORT algorithm for maintaining vehicle identity.
+- **Counting Logic:** Accurate vehicle count at a defined point in the video.
+- **Visualization:** Real-time display of vehicle count on the video feed.
+- **Customization:** Flexibility to adjust detection and tracking parameters.
+- **Performance:** Optimized for real-time processing and accuracy.
 
 ## Prerequisites
 
