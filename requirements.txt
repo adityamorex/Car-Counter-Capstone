@@ -7,13 +7,13 @@ cvzone==1.5.6
 ultralytics
 hydra-core>=1.2.0
 matplotlib>=3.2.2
-opencv-python
+#opencv-python
 Pillow
 PyYAML>=5.3.1
 requests>=2.23.0
-scipy
-torch
-torchvision
+#scipy
+#torch
+#torchvision
 tqdm>=4.64.0
 filterpy==1.4.5
 scikit-image

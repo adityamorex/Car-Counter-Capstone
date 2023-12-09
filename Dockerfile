@@ -12,7 +12,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
     
 RUN pip install Flask
-
 RUN pip install -r requirements.txt
+RUN python -m unittest test.py
 
 CMD ["python", "app.py"]
