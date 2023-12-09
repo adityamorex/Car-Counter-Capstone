@@ -28,7 +28,7 @@ def run_car_counter(filename):
         if filename != '':
             #video_path = os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(filename))
             #uploaded_file.save(video_path)
-            # Modify the car-counter.py script to use the uploaded video path
+            #Now we Modify the car-counter.py script to use the uploaded video path
             video_path = 'C:/Users/akash/OneDrive/Desktop/Capstone/Car-Counter-Capstone/Videos' f'/{filename}'
             command = f'python car-counter.py --video_path="{video_path}"'
 
