@@ -57,9 +57,7 @@ if __name__ == "_main_":
 #             subprocess.run(['docker', 'build', '-t', 'test_image', '-f', 'nonexistent_Dockerfile', '.'])
 
 #     def test_build_process_failure(self):
-#         # Simulate a build process failure
-#         # This could involve running a subprocess that intentionally fails
-#         # For example, trying to execute a build script that exits with a non-zero status
+
 #         with self.assertRaises(subprocess.CalledProcessError):
 #             subprocess.run(['./build_script.sh'])
 
