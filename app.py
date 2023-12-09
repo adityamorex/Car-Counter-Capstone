@@ -17,7 +17,7 @@ def upload_file():
         if file:
             filename = file.filename
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            # Call the run_car_counter function to process the uploaded video
+            # Call the run_car_counter function to process the uploaded videos
             return run_car_counter(filename)
     return 'Error in uploading file'
 
