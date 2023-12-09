@@ -40,28 +40,4 @@ class FlaskTest(TestCase):
 if __name__ == "_main_":
     unittest.main()
 
-# import unittest
-# import subprocess
 
-# class TestApplication(unittest.TestCase):
-
-#     def test_unit_failure(self):
-#         # Simulate a unit test failure
-#         self.assertEqual(1 + 1, 3)
-
-#     def test_docker_image_build_failure(self):
-#         # Simulate a Docker image build failure
-#         # This could involve running a subprocess that intentionally fails
-#         # For example, trying to build a Dockerfile that doesn't exist
-#         with self.assertRaises(subprocess.CalledProcessError):
-#             subprocess.run(['docker', 'build', '-t', 'test_image', '-f', 'nonexistent_Dockerfile', '.'])
-
-#     def test_build_process_failure(self):
-#         # Simulate a build process failure
-#         # This could involve running a subprocess that intentionally fails
-#         # For example, trying to execute a build script that exits with a non-zero status
-#         with self.assertRaises(subprocess.CalledProcessError):
-#             subprocess.run(['./build_script.sh'])
-
-# if __name__ == '_main_':
-#     unittest.main()
