@@ -50,9 +50,7 @@ if __name__ == "_main_":
 #         self.assertEqual(1 + 1, 3)
 
 #     def test_docker_image_build_failure(self):
-#         # Simulate a Docker image build failure
-#         # This could involve running a subprocess that intentionally fails
-#         # For example, trying to build a Dockerfile that doesn't exist
+#         
 #         with self.assertRaises(subprocess.CalledProcessError):
 #             subprocess.run(['docker', 'build', '-t', 'test_image', '-f', 'nonexistent_Dockerfile', '.'])
 
