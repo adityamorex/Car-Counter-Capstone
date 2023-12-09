@@ -4,7 +4,7 @@
 # base 
 numpy
 cvzone==1.5.6
-ultralytics
+#ultralytics
 hydra-core>=1.2.0
 matplotlib>=3.2.2
 #opencv-python
